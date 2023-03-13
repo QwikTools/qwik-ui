@@ -1,5 +1,4 @@
-import { Counter } from './components/counter/counter';
-import { Logo } from './components/logo/logo';
+import { Button } from "./components/button/button";
 
 export default () => {
   return (
@@ -9,8 +8,14 @@ export default () => {
         <title>Qwik Blank App</title>
       </head>
       <body>
-        <Logo />
-        <Counter />
+        <Button
+          class={"test"}
+          onClick$={() => {
+            console.log("test");
+          }}
+        >
+          CLICK ME
+        </Button>
       </body>
     </>
   );

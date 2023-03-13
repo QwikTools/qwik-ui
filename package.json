@@ -1,6 +1,6 @@
 {
   "name": "@qwiktools/qwik-ui",
-  "version": "0.0.2",
+  "version": "0.0.3-rc1",
   "description": "Qwik component library",
   "repository": {
     "type": "git",
